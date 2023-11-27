@@ -23,7 +23,7 @@ const addNotesQuery = async (title, description, rating, avatar) => {
     `);
     return notesadd[0];
   } catch (e) {
-    throw new Error('Failed add user!', e);
+    throw new Error('Failed add notes!', e);
   }
 };
 
